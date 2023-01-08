@@ -1,3 +1,4 @@
+import { ExpenseInput } from "components/ExpenseInput/ExpenseInput";
 import s from "./style.module.css";
 
 export function App() {
@@ -8,7 +9,7 @@ export function App() {
           Logo
         </div>
         <div className={`col-9 ${s.income_input}`}>
-          Income input
+          <ExpenseInput/>
         </div>
       </div>
       <div className={`row ${s.workspace}`}>
