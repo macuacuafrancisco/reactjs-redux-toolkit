@@ -12,8 +12,6 @@ export function ExpenseInput(props) {
   function submit(e){
     e.preventDefault();
     dispatch(addExpenseAction({name, price}))
-    console.log('----name---', name)
-    console.log('----price---', price)
   }
 
   return (
